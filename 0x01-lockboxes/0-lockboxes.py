@@ -12,11 +12,11 @@ def canUnlockAll(boxes):
         number as a box opens that box. You can assume all keys will be
         positive integers. There can be keys that do not have boxes.
         The first box boxes[0] is unlocked.
-
+    
     Parameters:
     boxes (List[List[int]]): The list of lists representing the boxes
         and their keys.
-
+    
     Returns:
     bool: True if all boxes can be opened, else False.
     """
